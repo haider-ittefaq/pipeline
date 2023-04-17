@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Changes Detected
         run: |
-          echo "Changes has be detected on Master Branch"
+          echo "Changes has be detected on Development Branch"
           echo "The most recent commit message is: ${GITHUB_SHA}"
   Time:
     runs-on: ubuntu-latest
