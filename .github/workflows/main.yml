@@ -1,0 +1,11 @@
+name: Print Hello World on Push to Master
+on:
+  push:
+    branches:
+      - master
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "Hello, world!"
