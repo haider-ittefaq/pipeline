@@ -2,7 +2,7 @@ name: CI Serevr
 on:
   push:
     branches:
-      - Master
+      - Development
 jobs:
   Commit:
     runs-on: ubuntu-latest
