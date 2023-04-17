@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: Changes Detected
         run: |
-        echo "Changes has be detected on Master Branch"
-        echo "The most recent commit message is: ${GITHUB_SHA}"
+          echo "Changes has be detected on Master Branch"
+          echo "The most recent commit message is: ${GITHUB_SHA}"
