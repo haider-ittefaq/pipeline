@@ -2,7 +2,7 @@ name: Print Hello World on Push to Master
 on:
   push:
     branches:
-      - master
+      - Master
 jobs:
   hello-world:
     runs-on: ubuntu-latest
