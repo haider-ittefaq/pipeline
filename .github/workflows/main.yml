@@ -4,10 +4,18 @@ on:
     branches:
       - Master
 jobs:
-  hello-world:
+  Commit:
     runs-on: ubuntu-latest
     steps:
       - name: Changes Detected
         run: |
           echo "Changes has be detected on Master Branch"
           echo "The most recent commit message is: ${GITHUB_SHA}"
+jobs:
+  Time:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Time
+        run: |
+          echo "Commit Time  ---> "
+          date
