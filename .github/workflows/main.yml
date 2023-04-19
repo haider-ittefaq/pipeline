@@ -11,10 +11,12 @@ jobs:
         run: |
           echo "Changes has be detected on Development Branch"
           echo "The most recent commit message is: ${GITHUB_SHA}"
-  Time:
-    runs-on: ubuntu-latest
-    steps:
       - name: Print Commit Time
         run: |
           echo "Commit Time  ---> "
           date
+jobs:
+  Notification:
+    - name: Sending Notifacation
+
+
